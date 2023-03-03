@@ -66,8 +66,8 @@ function init() {
 
     //megjelenit(lista);
     tablazat(list);
-    atlageletkor(list);
-    gomb(list);
+    //atlageletkor(list);
+    
 }
 
 function gomb(lista){
@@ -123,7 +123,7 @@ function tablazat(lista) {
             <td><button>törlés</button></td>
         </tr>`
     }
-    
+    gomb(lista);
 }
 
 function atlageletkor(lista){
